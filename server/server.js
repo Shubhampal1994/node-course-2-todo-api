@@ -45,13 +45,3 @@ app.listen(3000, () => {
 // }, (e) => {
 // 	console.log('Unable to save todo');
 // });
-
-// var otherTodo = new Todo({
-// 	text: 'Something to do'
-// })
-
-// otherTodo.save().then((doc) => {
-// 	console.log('Saved todo: ', doc);
-// }, (err) => {
-// 	console.log('Unable to save todo: ', doc);
-// });
